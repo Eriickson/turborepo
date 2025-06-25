@@ -1,7 +1,13 @@
 import React from 'react'
+import { CreateProduct } from './create-product'
+import { Products } from './products'
 
+export const dynamic = "dynamic-force"
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+      <CreateProduct/>
+      <Products/>
+    </div>
   )
 }
